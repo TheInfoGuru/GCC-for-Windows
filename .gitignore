@@ -1,3 +1,5 @@
 local\programs\
 crwlan.xml
 local/programs/
+test/*
+!test/test
