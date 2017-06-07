@@ -1,2 +1,3 @@
-local\programs
+local\programs\*
 crwlan.xml
+local/programs/*
