@@ -14,8 +14,8 @@ call "%~dp0fileError.bat"
 :runRogueKiller
 call "%~dp0checkCPUType.bat"
 
-if %cpuType% == 32 start "Run RogueKillerCMD" "%~dp0KetarinAndPrograms\programs\RogueKillerCMD.exe" -scan -dont_ask -debugpath "C:\rogueKillerLog.txt"
-if %cpuType% == 64 start "Run RogueKillerCMD" "%~dp0KetarinAndPrograms\programs\RogueKillerCMDX64.exe" -scan -dont_ask -debugpath "C:\rogueKillerLog.txt"
+if %cpuType% == 32 start "Run RogueKillerCMD" "%~dp0KetarinAndPrograms\programs\RogueKillerCMD.exe" -scan -dont_ask -debuglog "C:\rogueKillerLog.txt"
+if %cpuType% == 64 start "Run RogueKillerCMD" "%~dp0KetarinAndPrograms\programs\RogueKillerCMDX64.exe" -scan -dont_ask -debuglog "C:\rogueKillerLog.txt"
 goto eof
 
 :eof
