@@ -1,5 +1,8 @@
-local\programs\
+local/programs/*
 crwlan.xml
-local/programs/
-test/*
-!test/test
+!FreeCommander.7z
+!GoogleChrome.7z
+!Notepad++.7z
+!PNotes.7z
+!RealTemp.7z
+!SuperTaskManager.7z
